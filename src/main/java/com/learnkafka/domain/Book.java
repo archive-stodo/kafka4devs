@@ -1,14 +1,12 @@
 package com.learnkafka.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @Builder
+//@EqualsAndHashCode
 public class Book {
     private Integer bookId;
     private String bookName;
